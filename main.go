@@ -12,5 +12,6 @@ func main() {
 	r.GET("/category/:id", api.GetCategory)
 	r.GET("/categories", api.GetCategories)
 	r.POST("/user", api.PostUser)
+	r.GET("/randomprofilepicture", api.GenerateProfilePicture)
 	r.Run()
 }
