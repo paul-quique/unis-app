@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/gin-gonic/gin v1.8.1
-	github.com/paul-quique/unis v0.0.0-20221102194901-9d2eebe28c72
+	github.com/paul-quique/unis v0.0.0-20221115105217-b5e64116c4e2
 )
 
 require (
@@ -23,9 +23,9 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
 	github.com/ugorji/go/codec v1.2.7 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/net v0.1.0 // indirect
-	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/crypto v0.2.0 // indirect
+	golang.org/x/net v0.2.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
