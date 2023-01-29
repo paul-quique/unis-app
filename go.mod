@@ -3,12 +3,12 @@ module test
 go 1.18
 
 require (
+	github.com/gin-contrib/cors v1.4.0
 	github.com/gin-gonic/gin v1.8.2
-	github.com/paul-quique/unis v0.0.0-20230121160809-1643652d3db4
+	github.com/paul-quique/unis v0.0.0-20230124170508-507583f337de
 )
 
 require (
-	github.com/gin-contrib/cors v1.4.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
