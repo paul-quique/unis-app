@@ -22,5 +22,6 @@ func main() {
 	r.POST("/message", api.PostMessage)
 	r.POST("/conversation", api.PostConversation)
 	r.POST("/conversations", api.PostConversations)
+	r.POST("/search", api.PostSearch)
 	r.Run()
 }
