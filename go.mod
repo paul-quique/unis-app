@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/gin-contrib/cors v1.4.0
 	github.com/gin-gonic/gin v1.8.2
-	github.com/paul-quique/unis v0.0.0-20230130160741-2434f658d6d4
+	github.com/paul-quique/unis v0.0.0-20230130165014-d638b5d68b46
 )
 
 require (
