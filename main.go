@@ -10,13 +10,15 @@ func main() {
 	r := gin.Default()
 	r.Use(cors.Default())
 	r.GET("/user/:id", api.GetUser)
-	r.POST("/auth", api.Auth) //codé en javascript
+	r.POST("/auth", api.Auth)
 	r.GET("/category/:id", api.GetCategory)
 	r.GET("/categories", api.GetCategories)
-	r.POST("/user", api.PostUser) //codé en javascript
+	r.POST("/offers", api.GetOffers)
+	r.POST("/user", api.PostUser)
 	r.POST("/product", api.PostProduct)
 	r.POST("/product/:id", api.DeleteProduct)
 	r.GET("/product/:id", api.GetProduct)
+	r.POST("/offers/accepted", api.GetAcceptedOffers)
 	r.POST("/offer", api.PostOffer)
 	r.POST("/offer/accept", api.AcceptOffer)
 	r.POST("/message", api.PostMessage)
